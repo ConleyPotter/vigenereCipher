@@ -1,0 +1,94 @@
+body {
+  background-color: #F0E6EF;
+}
+
+.homepage-nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EFC3E6;
+  padding: 30px 0;
+  color: black;
+}
+
+.homepage-nav-links > h2 {
+  padding-left: 10px;
+  color: #9c89b8;
+  text-shadow: white .4px .4px;
+}
+
+.homepage-nav-links ul {
+  display: flex;
+}
+
+.homepage-nav-links ul li a {
+  padding: 0 30px;
+}
+
+div.main-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 100px;
+  margin-top: 15%;
+  width: 30%;
+  color: #9c89b8;
+}
+
+div.main-content h5 {
+  margin-top: 15px;
+}
+
+.blinking{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: transparent; }
+  20%{    color: rgb(156, 137, 184)       }
+  25%{    color: rgba(156, 137, 184, 0.35); }
+  35%{    color: rgb(156, 137, 184);      }
+  100%{   color: transparent; }
+}
+
+
+
+/* come back to later if time, text animation */
+
+/* .title-header {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.title-header .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.title-header .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.title-header .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.title-header .letter {
+  display: inline-block;
+  line-height: 1em;
+} */

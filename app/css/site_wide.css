@@ -1,0 +1,35 @@
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+h3, h4 {
+  font-family: 'ABeeZee', sans-serif;
+}
+
+h5, h6, p, input, textarea, a {
+  font-family: 'Forum', cursive;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 12px;
+}
