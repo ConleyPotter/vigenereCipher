@@ -103,7 +103,11 @@ app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + 'index.html');
-})
+});
+
+app.get('/cipher', (req, res) => {
+  res.sendFile(__dirname + '/cipher.html');
+});
 
 // Listen for HTTP requests on port 3000
 app.listen(port, () => {
