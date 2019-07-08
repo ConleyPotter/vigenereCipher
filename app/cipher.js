@@ -53,7 +53,7 @@ document.addEventListener('letterPressed', (event) => {
       letter.classList.remove('correct');
     }, 5000);
     // check if the game has been won
-    if (gameCounter === message.length - 1) {
+    if (gameCounter === message.length) {
       gameCounter = 0;
       // and display the winning modal if it has been
       openModal('winning');

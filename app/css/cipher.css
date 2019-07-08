@@ -47,15 +47,26 @@ button {
 
 .col-keys {
   display: inline-block;
-  padding-left: 32px;
-  padding-bottom: 5px;
+  padding-left: 48px;
   margin-bottom: 5px;
   border-bottom: 1px solid black;
 }
 
+.col-key {
+  padding-right: 4px;
+}
+
 .row-key {
-  padding-right: 5px;
+  padding: 5px;
   border-right: 1px solid black;
+}
+
+.letter {
+  padding: 2px;
+}
+
+.letter:hover {
+  cursor: pointer;
 }
 
 .correct {
