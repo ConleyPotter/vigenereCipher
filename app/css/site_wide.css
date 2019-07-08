@@ -33,3 +33,7 @@ h5 {
 h6 {
   font-size: 12px;
 }
+
+.monospace {
+  font-family: monospace;
+}
