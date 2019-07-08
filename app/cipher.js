@@ -44,14 +44,14 @@ document.addEventListener('letterPressed', (event) => {
     gameCounter += 1;
     // highlight the letter green
     letter.classList.add('correct');
-    setTimeout(() => {
-      letter.classList.remove('correct');
-    }, 5000);
     // check if this is the first letter
     if (gameCounter === 0) {
       // if it is, display a congratulatory message and explain some about the cipher
       openModal('congratulatory');
     }
+    setTimeout(() => {
+      letter.classList.remove('correct');
+    }, 5000);
     // check if the game has been won
     if (gameCounter === message.length - 1) {
       gameCounter = 0;
@@ -61,14 +61,14 @@ document.addEventListener('letterPressed', (event) => {
   } else {
     // highlight the letter red
     letter.classList.add('incorrect');
-    setTimeout(() => {
-      letter.classList.remove('incorrect');
-    }, 5000);
     // check if this is the first letter pressed
     if (gameCounter === 0) {
       // if it is, display an explanatory message about how to play
       openModal('explanatory');
     } 
+    setTimeout(() => {
+      letter.classList.remove('incorrect');
+    }, 5000);
   }
 });
 
@@ -99,6 +99,7 @@ const buttonClick1 = function(message, password, passwordSpan, messageSpan) {
 const openModal = function(type) {
   modalWindow = document.getElementById('jsModal')
   modalWindow.classList.add('open');
+  console.log('here')
 
   messageTag = document.getElementById('modal-message')
   switch(type) {
