@@ -51,7 +51,7 @@ document.addEventListener('letterPressed', (event) => {
     }
     setTimeout(() => {
       letter.classList.remove('correct');
-    }, 5000);
+    }, 1000);
     // check if the game has been won
     if (gameCounter === message.length) {
       gameCounter = 0;
@@ -68,7 +68,7 @@ document.addEventListener('letterPressed', (event) => {
     } 
     setTimeout(() => {
       letter.classList.remove('incorrect');
-    }, 5000);
+    }, 3000);
   }
 });
 
