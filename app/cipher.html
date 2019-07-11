@@ -16,18 +16,18 @@
     <input type="text" id="message-to-encode" placeholder="Protect the West Wall">
     <h3>What will be your password? 
       <br/>
-      (The password must be longer than the message)</h3>
+      (The message must be longer than the message)</h3>
     <input type="text" id="password" placeholder="Fortification">
     <button id="submit">Submit</button>
     
     <div class="overlays-container">
-      <span id="password-overlay" class="overlays monospace"></span>
-      <span id="message-overlay" class="overlays monospace"></span>
+      Password (repeated): <span id="password-overlay" class="overlays monospace"></span>
+      Message: <span id="message-overlay" class="overlays monospace"></span>
     </div>
 
     <div id="hidden-at-first">
       <h4>
-        Vinegere's Cipher works by picking out letters from the alphabet matrix below. Pick out a letter from the matrix by using the password letter (on top) as the column and the message letter (on bottm) as the row. Find the corresponding letter from the matrix at position using the correct columns and rows.
+        Vinegere's Cipher works by picking out letters from the alphabet matrix below. Pick out a letter from the matrix by using the password letter as the row and the message letter as the column. Find the corresponding letter from the matrix at position using the correct columns and rows.
       </h4>
 
       <h5 class="monospace">
