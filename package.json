@@ -17,7 +17,7 @@
     "anime": "^0.1.2",
     "babel-loader": "^8.0.6",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "mini-css-extract-plugin": "^0.7.0",
     "net": "^1.0.2",
