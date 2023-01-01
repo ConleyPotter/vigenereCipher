@@ -15,16 +15,16 @@
   "license": "ISC",
   "dependencies": {
     "anime": "^0.1.2",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.3.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "mini-css-extract-plugin": "^0.7.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "net": "^1.0.2",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.1",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
